@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1> Food Restaurant</h1>
+        <nav>
+            <link rel="stylesheet" href="style.css" />
+            <a href="index.html">Home</a>
+            <a href="accounting.html">Accounting</a>
+            <a href="https://www.facebook.com/" title="go to facebook page" target="_blanck">Facebook</a>
+            <a href="https://www.google.com/" title="go to facebook page" target="_blanck">Google</a>
+            <a href="https://www.roblox.com/" title="go to roblox page" target="_blanck">Roblox</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+
+            <form id="food-form">
+                <fieldset>
+                    <legend>Add New Order</legend>
+                    <div>
+                        <label for="foodName">Food Name</label>
+                        <input type="text" id="foodName" name="food" placeholder="add food name" />
+                    </div>
+                    <div>
+                        <select name="choice">
+                            <option value="Fruit and vegetables">Fruit and vegetables</option>
+                            <option value="Starchy food">Starchy food</option>
+                            <option value="Dairy">Dairy</option>
+                            <option value="Protein">Protein</option>
+                            <option value="Fat">Fat</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="price">price</label>
+                        <input type="text" name="price" id="price" placeholder="please set the price" />
+                    </div>
+                    <button type="submit">save</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="food">
+            <table border="2px" id="food-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rendered food items will be inserted here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="accounting.html">Accounting</a>
+            <a href="https://www.facebook.com/" title="go to facebook page" target="_blanck">Facebook</a>
+            <a href="https://www.google.com/" title="go to facebook page" target="_blanck">Google</a>
+            <a href="https://www.roblox.com/" title="go to roblox page" target="_blanck">Roblox</a>
+        </nav>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
